@@ -1,0 +1,131 @@
+
+#contenedor{
+  background-image: url('../img_musical/sombra_izq.jpg');
+  background-repeat: no-repeat;
+
+  padding: 0  20px;
+  font-family: fantasy;
+}
+/*cabecera*/
+header{
+  background-image: url('../img_musical/cabecera_fondo.jpg');
+  background-repeat: repeat-x;
+  padding-top: 30px;
+  padding-left: 80px;
+  padding-bottom: 2px;
+  height: 123px;
+  color: white;
+  line-height: 5px;
+  font-style: italic;
+}
+h1{
+  font-size: 2em;
+}
+h2{
+  font-size: 1.2em;
+}
+h3{
+  font-style: italic;
+}
+/*Barra de navegación*/
+#navsuperior{
+  background-image: url('../img_musical/nav_fondo.jpg');
+  background-repeat: repeat-x;
+  height: 59px;
+
+}
+#navsupcontainer{
+  padding: 18px 0;
+}
+#navsuplist{
+  text-decoration: none;
+  margin: 0 0;
+}
+#navsuplist li{
+  display: inline;
+  padding: 18px;
+  padding-bottom: 19px; /*Para que coincida la línea de abajo con la del hover*/
+}
+#navsuplist li:hover{
+  background-image: url('../img_musical/nav_fondo_hover.jpg');
+}
+#navsuplist li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/*cuerpo*/
+#contenidos{
+  background-image: url('../img_musical/contenido_sup.jpg');
+  background-repeat: repeat-x;
+  padding: 30px;
+  padding-right: 246px;
+  font-size: 12px;
+}
+#contenidos h3{
+  color: #6E6E6E;
+  padding-bottom: 10px;
+}
+#contenidos img{
+  float:left;
+  padding: 5px;
+}
+#col_izquierda{
+  float: left;
+  width: 33%;
+}
+#col_derecha{
+  float: right;
+  width: 20%;
+}
+#col_centro{
+    margin-left: 35%;
+    margin-right: 22%;
+}
+/*Menu derecha*/
+#navderecha{
+  background-image: url('../img_musical/altavoz.jpg');
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 246px;
+  padding-top: 200px;
+}
+#navdercontainer{
+  background-image: url('../img_musical/nav_der_fondo.jpg');
+  margin-top: 80px;
+  height: 324px;
+}
+ul#navderlist{
+  padding-top: 70px;
+  text-decoration: none;
+  list-style: none;
+  line-height: 25px;
+}
+#navderlist li{
+  border-bottom: 1px solid #F2F2F2;
+  width: 160px;
+  text-indent: 10px;
+}
+#navderlist li a{
+
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+
+/*footer*/
+footer{
+  clear: both;
+  border-top: 1px solid #D8D8D8;
+  padding: 12px 0;
+  text-align: center;
+  width: 100%;
+}
+footer a{
+  color: #723333;
+  font-weight: bold;
+  text-decoration: none;
+}

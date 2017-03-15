@@ -1,0 +1,23 @@
+.left{
+  float: left;
+}
+
+.clear{
+  clear: both;
+}
+
+#parrafo_descripcion{
+  width: 75%;
+}
+#img_descripcion{
+  width: 25%;
+}
+
+.columnas{
+  width: 50%;
+  float: left;
+}
+
+#ingredientes, #elaboracion{  /*Esto es para inhabilitar los efectos del ejercicio 1*/
+  padding-left: 0;
+}

@@ -1,0 +1,24 @@
+.cookies{
+  position: fixed;
+  bottom: -12px;
+  border-radius: 12px;
+  border: 1px solid #5858FA;
+  background-color: rgba(245, 218,129, 0.6);
+  width: 97%;
+  text-align: center;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+.texto-cookies{
+  font-size: 10px;
+  font-family: monospace;
+  text-align: justify;
+}
+.boton-cookies{
+  border-radius: 5px;
+  border: 1px solid black;
+  box-shadow: 1px 1px 1px grey;
+  margin: 2px;
+  padding: 1px;
+  background-color: #E6E6E6;
+}

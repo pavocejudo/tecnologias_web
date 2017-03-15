@@ -1,0 +1,47 @@
+body{
+  background-color: #EFFBFB;
+  padding: 15px 10px;
+  font-family: Bitstream Vera Sans, DejaVu Sans, Arial;
+
+}
+.titulo{
+  color:#5882FA;
+  background-color: #A9BCF5;
+  text-align: center;
+
+  padding: 20px 0;
+}
+
+#descripcion{
+  font-weight: bold;
+  padding: 10px;
+  font-size: 14px;
+}
+#caracteristicas{
+  background-color: #FFDCBA;
+  padding: 10px;
+}
+#caracteristicas .detalle{
+  padding-left:3em;
+}
+.encabezado_seccion{
+  font-size: 20px;
+  font-weight: bold;
+}
+#ingredientes, #elaboracion{
+  padding-left: 20px;
+  font-size: 13px;
+}
+.pie_pagina{
+  background-color: #A3B5E9;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  font-size: 12px;
+}
+
+footer ul li{
+  text-decoration: none;
+  display: inline;
+  padding-right: 40px;
+}

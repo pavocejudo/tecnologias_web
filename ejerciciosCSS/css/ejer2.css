@@ -1,0 +1,15 @@
+#anterior-siguiente{
+  background-color: #DAE0F0;
+  padding: 10px;
+  color: black;
+}
+
+#anterior-siguiente a{
+  text-decoration: none;
+}
+#anterior-siguiente a:visited{
+  color: black;
+}
+.right{
+  float: right;
+}

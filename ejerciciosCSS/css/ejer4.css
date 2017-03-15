@@ -1,0 +1,42 @@
+.columna-izquierda{
+  width: 40%;
+  float: left;
+  /*margin-right: 10%;*/
+}
+.columna-derecha{
+  width: 40%;
+  float: left;
+}
+
+.empleado{
+  background-color:#F5F6CE;
+  border: solid 2px blue;
+  /*width: 32%;*/
+  height: 200px;
+  padding-top: 1%;
+  margin: 5%;
+}
+.empleado .left{
+  width: 30%;
+  float: left;
+  vertical-align: middle;
+}
+.empleado .center{
+  width: 20%;
+  text-align: right;
+  float: left;
+  height: inherit;
+}
+.texto{
+  margin-top: 10px;
+  margin-bottom: 14px;
+}
+.empleado .right{
+  /*width: 40%;*/
+  float: left;
+  margin-left: 3%;
+}
+
+.descripcion{
+  height: 50px;
+}

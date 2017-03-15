@@ -1,0 +1,31 @@
+nav{
+  background-color: #FFA500;
+  padding: 10px;
+  text-align: right;
+  margin: -8px;
+}
+nav ul li{
+  text-decoration: none;
+  display: inline;
+  margin: 10px;
+
+}
+nav ul li a{
+  text-decoration: none;
+  color: #A93326;
+  border: 1px solid #A93326;
+  background-color: #FDD400;
+  padding: 10px;
+}
+
+nav ul li a:hover{
+  background-color: #060185;
+  color:#FDD400;
+  border-color: #FDD400;
+}
+
+.activo{
+  background-color: #A93326;
+  color:#FFA500;
+  border-color: #FDD400;
+}

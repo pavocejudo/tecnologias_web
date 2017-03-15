@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Suscripciones</title>
+  </head>
+  <body>
+    <form action="procesar.php" method="post">
+      <fieldset>
+        <legend>Información personal</legend>
+        Nombre: <input type="text" name="Nombre"><br>
+        Apellidos: <input type="text" name="Apellidos" size="20"><br>
+        Dirección postal: <input type="text" name="Direccion" size="40"><br>
+        Fecha de nacimiento: <input type="date" name="Fecha_de_nacimiento"><br>
+        Teléfono: <input type="tel" maxlength="12" name="Telefono"><br>
+        Email: <input type="email" name="Email"><br>
+        Número de CC: <input type="text" name="Numero_CC" maxlength="19">
+      </fieldset>
+      <fieldset>
+        <legend>Información sobre la suscripción</legend>
+        Revista seleccionada:<br>
+          <input type="radio" name="Revista" value="Sabelotodo"> Sabelotodo<br>
+          <input type="radio" name="Revista" value="Solo se que no se nada"> Sólo sé que no sé nada<br>
+          <input type="radio" name="Revista" value="Muy interesado"> Muy interesado<br>
+          <input type="radio" name="Revista" value="Ciencia con sabor"> Ciencia con sabor<br>
+        Tipo de suscripción:<br>
+          <input type="radio" name="Tipo" value="Anual"> Anual<br>
+          <input type="radio" name="Tipo" value="Bianual"> Bianual<br>
+        Modo de pago:<br>
+        <input type="radio" name="Pago" value="Paypal"> Paypal<br>
+        <input type="radio" name="Pago" value="VISA"> VISA <br>
+        <input type="radio" name="Pago" value="Reembolso"> Reembolso <br>
+      </fieldset>
+      <fieldset>
+        <legend>Otra información</legend>
+        Otros temas de interés:<br>
+        <input type="checkbox" name="temasInteres[]" value="divulgacion"> Divulgación<br>
+        <input type="checkbox" name="temasInteres[]" value="gastronomia"> Gastronomía<br>
+        <input type="checkbox" name="temasInteres[]" value="motor"> Motor<br>
+        <input type="checkbox" name="temasInteres[]" value="viajes"> Viajes<br>
+        <hr>
+        <input type="checkbox" name="aceptoPublicidad" checked="true"> Acepto el envío de publicidad por email<br>
+      </fieldset>
+
+      <input type="submit"value="Enviar">
+
+    </form>
+  </body>
+</html>
