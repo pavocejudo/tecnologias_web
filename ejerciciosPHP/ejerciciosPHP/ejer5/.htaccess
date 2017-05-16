@@ -1,0 +1,4 @@
+<Files "user.txt">
+  Order Deny,Allow
+  Deny from all
+</Files>
